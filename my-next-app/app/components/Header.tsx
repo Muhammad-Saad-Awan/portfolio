@@ -1,14 +1,18 @@
+"use client"
 import Link from "next/link";
 import { Lora } from '@next/font/google';
 import { Protest_Revolution } from 'next/font/google';
+import { motion } from 'framer-motion';
 const lora = Lora({
   subsets: ['latin'],
   weight: ['400', '700'], // Add the desired font weights
 });
 const protestRevolution = Protest_Revolution({
   subsets: ['latin'],
-  weight: '400', // Adjust weight if needed
+  weight: '400',  
 });
+
+
 
 export default function Header() {
   return (
@@ -18,9 +22,11 @@ export default function Header() {
       >
         
         <div className="text-6xl">
+        
           <div className={protestRevolution.className}>
-          <span className=" text-[#00B0FF] ml-10  relative hover:text-yellow-400 hover:shadow-lg hover:shadow-yellow-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[''] after:block after:h-0.5 after:w-0  hover:after:w-full after:transition-all after:duration-300">My Portfolio</span>
+          <span className=" text-[#00B0FF] ml-10  relative hover:text-yellow-400 hover:shadow-xl animate-pulse">My Portfolio</span>
           </div>
+           
         </div>
 
          

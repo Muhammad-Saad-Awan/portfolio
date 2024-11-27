@@ -1,18 +1,34 @@
+"use client"
 import { Lora } from '@next/font/google';
 import Link from 'next/link';
+import { motion } from 'framer-motion';
 const lora = Lora({
     subsets: ['latin'],
-    weight: ['400', '700'], // Add the desired font weights
+    weight: ['400', '700'], 
   });
+  
 export default function about() {
   return (
-    <body className={`${lora.className} mt-24 mx-6 md:mx-10 bg-[#0D1B2A] text-white min-h-screen flex flex-col items-center`}>
-    <div className="w-full max-w-6xl px-6 sm:px-12">
-      <h1 className="text-7xl font-extrabold text-center text-yellow-400 py-12">About Me</h1>
+<body className=" mt-16 ml-8 bg-[#0D1B2A] text-white min-h-screen flex flex-col items-center  w-full max-w-7xl  sm:px-12 ">
+    <div className={lora.className} >
+    <motion.h1
+        className="text-5xl font-bold pt-3 "
+        initial={{ opacity:0, y: -50, scale: 0.5 ,}}
+        animate={{ opacity: 1, y: 0, scale: 1 }}
+        transition={{
+          duration: 1.2,
+           
+        }}
+      >
+      <h1 className=" text-7xl font-extrabold text-center  text-yellow-400 py-12">About Me</h1>
+      </motion.h1>
       
      
-      <div className="py-8 px-6 bg-[#102A43] rounded-lg shadow-lg">
+     <div>
+     <div className="py-8 px-6 bg-[#102A43] rounded-lg shadow-lg">
         <h2 className="text-4xl font-bold text-[#00B0FF] mb-4">Introduction</h2>
+
+
         <p className="text-lg leading-relaxed">
           Hi, I’m Muhammad Saad, a 20-year-old BSCS student at Dawood
           University of Engineering and Technology (DUET). <br /> I am
@@ -83,6 +99,7 @@ export default function about() {
           <Link href="/contact">Contact Me</Link>
         </button>
       </div>
+     </div>
   
     </div>
   </body>

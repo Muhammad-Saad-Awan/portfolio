@@ -1,3 +1,5 @@
+'use client'
+import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub, faInstagram, faUpwork } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
@@ -6,7 +8,7 @@ import { Poppins } from '@next/font/google';
  
 const poppins = Poppins({
   subsets: ['latin'],
-  weight: ['400', '600'], // Specify desired weights
+  weight: ['400', '600'],  
 });
  
 
@@ -14,11 +16,21 @@ export default function Home() {
   return (
     <main className="mt-14 bg-[#102A43] text-white w-full min-h-screen pl-16 pr-16">
     <div className={poppins.className}>
-      <div className="p-5 pt-40">
-        <h1 className="text-5xl font-extrabold text-white mb-4 transition-transform duration-500 transform hover:scale-105 hover:text-yellow-400">
+      <div className="p-5 pt-36">
+       
+        <h1 className="text-5xl font-extrabold text-white mb-4 transition-transform duration-500 transform hover:scale-105 hover:text-yellow-400 w-fit">
           Hi, I'M Muhammad Saad
         </h1>
-        <h1 className="text-5xl text-yellow-400">Frontend Developer</h1>
+         
+        <motion.div
+        className=" "
+        initial={{ x:-560}}
+        animate={{ x:50, y: 0 }}
+        transition={{ duration: 1.8}}
+      >
+        
+        <h1 className="text-5xl text-yellow-400  hover:scale-105 hover:text-white w-fit">Frontend Developer</h1>
+        </motion.div>
         <br />
         <div className="text-wrap">
           <p className="pb-3 text-lg">
