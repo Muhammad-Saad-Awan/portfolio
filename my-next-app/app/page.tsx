@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <main className="mt-14 bg-[#102A43] text-white w-full min-h-screen pl-16 pr-16">
+    <div className="mt-14 bg-[#102A43] text-white w-full min-h-screen pl-16 pr-16">
     <div className={poppins.className}>
       <div className="p-5 pt-36">
        
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
       </div>
     </div>
-  </main>
+  </div>
   
   );
 }
