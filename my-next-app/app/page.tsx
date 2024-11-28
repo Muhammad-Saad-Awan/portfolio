@@ -24,12 +24,12 @@ export default function Home() {
          
         <motion.div
         className=" "
-        initial={{ x:-560}}
+        initial={{ x:-555}}
         animate={{ x:50, y: 0 }}
-        transition={{ duration: 1.8}}
+        transition={{ duration: 1.5}}
       >
         
-        <h1 className="text-5xl text-yellow-400  hover:scale-105 hover:text-white w-fit">Frontend Developer</h1>
+        <div className="text-5xl text-yellow-400  hover:scale-105 hover:text-white w-fit">Frontend Developer</div>
         </motion.div>
         <br />
         <div className="text-wrap">

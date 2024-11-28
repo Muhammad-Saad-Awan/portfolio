@@ -2,10 +2,10 @@
 import Link from "next/link";
 import { Lora } from '@next/font/google';
 import { Protest_Revolution } from 'next/font/google';
-import { motion } from 'framer-motion';
+
 const lora = Lora({
   subsets: ['latin'],
-  weight: ['400', '700'], // Add the desired font weights
+  weight: ['400', '700'],  
 });
 const protestRevolution = Protest_Revolution({
   subsets: ['latin'],
@@ -18,7 +18,7 @@ export default function Header() {
   return (
     <header className={lora.className}>
       <div
-        className="flex items-center justify-between gap-14 pt-6 pr-16 px-4 py-3 text-xl font-bold text-[#D9E2EC]  bg-[#102A43] fixed top-0 left-0 w-full "
+        className="flex items-center justify-between gap-14 pt-6 pr-16 px-4 py-3 text-xl font-bold text-[#D9E2EC]  bg-[#102A43] fixed top-0 left-0 z-50 w-full "
       >
         
         <div className="text-6xl">
