@@ -1,4 +1,5 @@
 "use client"
+import type { ResolvingMetadata, ResolvingViewport } from "next/dist/lib/metadata/types/metadata-interface.js"
 import { motion } from   "framer-motion";
 import { FontAwesomeIcon } from   "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faInstagram, faUpwork } from   "@fortawesome/free-brands-svg-icons";
@@ -18,7 +19,7 @@ export default function Home() {
       <div className={poppins.className}>
         <div className="p-5 pt-36">
           <h1 className="text-5xl font-extrabold text-white mb-4 transition-transform duration-500 transform hover:scale-105 hover:text-yellow-400 w-fit">
-            Hi, I "M Muhammad Saad
+            Hi, I'M Muhammad Saad
           </h1>
           <motion.div
             className=""

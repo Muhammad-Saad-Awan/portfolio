@@ -1,17 +1,18 @@
 "use client"
 import Link from "next/link";
 import { Lora } from "@next/font/google";
-import { Protest_Revolution } from "next/font/google";
+import { Anton } from "@next/font/google";
 
 const lora = Lora({
   subsets: ["latin"],
   weight: ["400", "700"]
 });
-const protestRevolution = Protest_Revolution({
-  subsets: ["latin"],
-  weight: ["400"],  
-});
 
+
+const anton = Anton({
+  subsets: ["latin"], // Ensure Latin subset is included
+  weight: "400", // Anton has only one weight: 400
+});
 
 
 export default function Header() {
@@ -21,7 +22,7 @@ export default function Header() {
     className="flex items-center justify-between gap-14 pt-6 pr-16 px-4 py-3 text-xl font-bold text-[#D9E2EC] bg-[#102A43] fixed top-0 left-0 z-50 w-full"
   >
     <div className="text-6xl">
-      <div className={protestRevolution.className}>
+      <div className={anton.className}>
         <span className="text-[#00B0FF] ml-10 relative hover:text-yellow-400 hover:shadow-xl animate-pulse">
           My Portfolio
         </span>

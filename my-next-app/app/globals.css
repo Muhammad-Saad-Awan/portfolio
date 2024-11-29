@@ -26,9 +26,4 @@ body {
   }
 }
 
-@font-face {
-  font-family: 'Protest Revolution';
-  src: url('/fonts/ProtestRevolution.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
+ 
