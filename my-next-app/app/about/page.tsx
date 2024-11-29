@@ -1,12 +1,12 @@
 "use client"
-import Image from 'next/image';
-import { Lora } from '@next/font/google';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
+import Image from "next/image";
+import { Lora } from "@next/font/google";
+import Link from "next/link";
+import { motion } from "framer-motion";
 
 const lora = Lora({
-    subsets: ['latin'],
-    weight: ['400', '700'], 
+    subsets: ["latin"],
+    weight: ["400", "700"]
 });
   
 export default function About() {
@@ -45,7 +45,7 @@ export default function About() {
             title: "Introduction",
             content: (
               <p className="text-lg leading-relaxed text-gray-300">
-                Hi, I'm Muhammad Saad, a 20-year-old BSCS student at Dawood University of Engineering and Technology (DUET). I am passionate about Web 3.0, Metaverse, and Generative AI, aiming to innovate the future with my skills and creativity.
+                Hi, I"m Muhammad Saad, a 20-year-old BSCS student at Dawood University of Engineering and Technology (DUET). I am passionate about Web 3.0, Metaverse, and Generative AI, aiming to innovate the future with my skills and creativity.
               </p>
             )
           },
@@ -125,7 +125,7 @@ export default function About() {
             content: (
               <>
                 <p className="text-lg leading-relaxed mb-4 text-gray-300">
-                  Feel free to connect with me if you're interested in exploring potential collaborations!
+                  Feel free to connect with me if you"re interested in exploring potential collaborations!
                 </p>
                 <Link href="/contact" className="block">
                   <button className="text-xl font-bold py-2 px-7 bg-white text-[#0048ff] hover:text-blue-400 hover:shadow-lg hover:scale-105 transition duration-300 ease-in-out rounded-full w-full sm:w-auto mx-auto shadow-md">
