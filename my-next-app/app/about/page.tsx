@@ -125,7 +125,7 @@ export default function About() {
             content: (
               <>
                 <p className="text-lg leading-relaxed mb-4 text-gray-300">
-                  Feel free to connect with me if you"re interested in exploring potential collaborations!
+                  Feel free to connect with me if you are interested in exploring potential collaborations!
                 </p>
                 <Link href="/contact" className="block">
                   <button className="text-xl font-bold py-2 px-7 bg-white text-[#0048ff] hover:text-blue-400 hover:shadow-lg hover:scale-105 transition duration-300 ease-in-out rounded-full w-full sm:w-auto mx-auto shadow-md">

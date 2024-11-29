@@ -42,7 +42,7 @@ export default function Home() {
             </p>
             <p className="pb-10 text-lg">
               I am committed to continuous learning, staying updated with the latest web development trends, <br />
-              and improving my skills to deliver innovative solutions that meet users " needs.
+              and improving my skills to deliver innovative solutions that meet users needs.
             </p>
           </div>
   
