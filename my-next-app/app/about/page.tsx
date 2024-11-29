@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image';
 import { Lora } from '@next/font/google';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -89,9 +90,11 @@ export default function About() {
                         {category.skills.map((skill, skillIndex) => (
                           <li key={skillIndex} className="text-base font-medium flex items-center">
                              
-                            <img 
+                            <Image
                             src={`/icons/${skill.toLowerCase().replace(/\s+/g,  "-")}.png`}
                             alt={`${skill} icon`}
+                            width={6}
+                            height={6}
                             className="w-6 h-6 mr-2 m-1 "
                             />
                             {skill}
