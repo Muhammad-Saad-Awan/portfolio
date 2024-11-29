@@ -45,7 +45,7 @@ export default function About() {
             title: "Introduction",
             content: (
               <p className="text-lg leading-relaxed text-gray-300">
-                Hi, I"m Muhammad Saad, a 20-year-old BSCS student at Dawood University of Engineering and Technology (DUET). I am passionate about Web 3.0, Metaverse, and Generative AI, aiming to innovate the future with my skills and creativity.
+                Hi, I am Muhammad Saad, a 20-year-old BSCS student at Dawood University of Engineering and Technology (DUET). I am passionate about Web 3.0, Metaverse, and Generative AI, aiming to innovate the future with my skills and creativity.
               </p>
             )
           },

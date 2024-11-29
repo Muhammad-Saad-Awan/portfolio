@@ -18,10 +18,10 @@ export default function Home() {
       <div className={poppins.className}>
         <div className="p-5 pt-36">
           <h1 className="text-5xl font-extrabold text-white mb-4 transition-transform duration-500 transform hover:scale-105 hover:text-yellow-400 w-fit">
-            Hi, I'M Muhammad Saad
+            Hi, I am Muhammad Saad
           </h1>
           <motion.div
-            className=""
+            
             initial={{ x: -555 }}
             animate={{ x: 50, y: 0 }}
             transition={{ duration: 1.5 }}
@@ -56,7 +56,7 @@ export default function Home() {
               passHref
             >
               <button
-                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ' '] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
+                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
                 aria-label="LinkedIn"
               >
                 <FontAwesomeIcon icon={faLinkedin} className="w-8 h-8" />
@@ -69,7 +69,7 @@ export default function Home() {
               passHref
             >
               <button
-                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ' '] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
+                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
                 aria-label="GitHub"
               >
                 <FontAwesomeIcon icon={faGithub} className="w-8 h-8" />
@@ -82,7 +82,7 @@ export default function Home() {
               passHref
             >
               <button
-                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ' '] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
+                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
                 aria-label="Instagram"
               >
                 <FontAwesomeIcon icon={faInstagram} className="w-8 h-8" />
@@ -95,7 +95,7 @@ export default function Home() {
               passHref
             >
               <button
-                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ' '] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
+                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
                 aria-label="Upwork"
               >
                 <FontAwesomeIcon icon={faUpwork} className="w-8 h-8" />
@@ -108,7 +108,7 @@ export default function Home() {
               passHref
             >
               <button
-                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ' '] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
+                className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[ ] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
                 aria-label="Email"
               >
                 <FontAwesomeIcon icon={faEnvelope} className="w-8 h-8" />
