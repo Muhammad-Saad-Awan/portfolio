@@ -1,5 +1,5 @@
 export default function skills(){
-    <main>
+    <div>
         
-    </main>
+    </div>
 }
