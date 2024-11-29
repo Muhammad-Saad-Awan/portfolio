@@ -1,5 +1,4 @@
 "use client"
-import type { ResolvingMetadata, ResolvingViewport } from "next/dist/lib/metadata/types/metadata-interface.js"
 import { motion } from   "framer-motion";
 import { FontAwesomeIcon } from   "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faInstagram, faUpwork } from   "@fortawesome/free-brands-svg-icons";
