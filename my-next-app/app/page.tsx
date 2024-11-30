@@ -14,25 +14,25 @@ const poppins = Poppins({
 
 export default function Home() {
   return (
-    <div className="mt-14 bg-[#102A43] text-white w-full min-h-screen pl-16 pr-16">
+    <div className="mt-14 bg-[#102A43] text-white w-full min-h-screen  px-16 max-md:px-1 ">
       <div className={poppins.className}>
-        <div className="p-5 pt-36">
-          <h1 className="text-5xl font-extrabold text-white mb-4 transition-transform duration-500 transform hover:scale-105 hover:text-yellow-400 w-fit">
+        <div className="p-5 pt-36 max-md:pt-[85px]">
+          <h1 className="text-5xl font-extrabold text-[#FFD700] mb-4 transition-transform duration-500 transform hover:scale-105 hover:text-yellow-400 min-w-full  max-md:text-2xl max-md:pl-5 ">
             Hi, I am Muhammad Saad
           </h1>
-          <motion.div
+          <motion.div className=""
             
             initial={{ x: -555 }}
-            animate={{ x: 50, y: 0 }}
+            animate={{ x: 50 , y: 0 }}
             transition={{ duration: 1.5 }}
           >
-            <div className="text-5xl text-yellow-400 hover:scale-105 hover:text-white w-fit">
+            <div className="text-5xl text-[#00B0FF] hover:scale-105 hover:text-white min-w-full max-md:text-2xl max-md:pl-0   max-md:font-bold">
               Frontend Developer
             </div>
           </motion.div>
           <br />
-          <div className="text-wrap">
-            <p className="pb-3 text-lg">
+          <div className="text-wrap px-3">
+            <p className="pb-3 text-lg max-md:text-base">
               I am a Frontend Developer skilled in HTML, CSS, Tailwind CSS, and Next.js. <br />
               I focus on building responsive and user-friendly web interfaces that are clean and functional.
             </p>
