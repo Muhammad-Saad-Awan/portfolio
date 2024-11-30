@@ -110,7 +110,7 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 bg-[#102A43] z-40  flex flex-col items-center justify-center">
+        <div className="fixed inset-0 bg-black z-40  flex flex-col items-center justify-center">
           <nav className="space-y-6">
             {navLinks.map((link) => (
               <Link 
