@@ -37,7 +37,7 @@ export default function Header() {
   return (
     <header className={lora.className}>
   <div
-    className="flex items-center justify-between gap-14 pt-6 pr-16 px-4 py-3 text-xl  text-[#D9E2EC] bg-[#102A43] fixed top-0 left-0 z-50 w-full"
+    className="flex items-center justify-between gap-14 pt-6  px-6 py-3 text-xl  text-[#D9E2EC]  bg-gradient-to-br from-[#0D1B2A] via-[#102A43] to-[#1A375D] fixed top-0 left-0 z-50 min-w-full"
   >
     <div className="text-6xl md:text-nowrap ml-10 max-sm:ml-2 max-md:text-3xl">
       <div className={anton.className}>
@@ -47,7 +47,7 @@ export default function Header() {
       </div>
     </div>
 
-    <div className="flex gap-8 max-md:hidden max-[1052px]:text-nowrap max-[1012px]:hidden">
+    <div className="flex gap-8 font-bold max-md:hidden">
       <button>
         <Link
           className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[''] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
@@ -77,7 +77,7 @@ export default function Header() {
 
       <button>
         <Link
-          className=""
+          className="text-white relative hover:text-blue-400 hover:shadow-lg hover:shadow-blue-400/50 hover:scale-105 transition duration-300 ease-in-out after:content-[''] after:block after:h-0.5 after:w-0 after:bg-blue-400 hover:after:w-full after:transition-all after:duration-300"
           href="/projects"
         >
           My Projects
@@ -94,7 +94,7 @@ export default function Header() {
       </button>
     </div>
     
-    <div className="[1032px]:hidden relative">
+    <div className=" md:hidden [1032px]:hidden relative">
       
       <button 
         onClick={toggleMenu}
@@ -108,7 +108,7 @@ export default function Header() {
         )}
       </button>
 
-      {/* Mobile Menu Overlay */}
+      
       {isOpen && (
         <div className="fixed inset-0 bg-black z-40  flex flex-col items-center justify-center">
           <nav className="space-y-6">
