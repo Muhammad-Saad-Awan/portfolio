@@ -35,7 +35,7 @@ export default function About() {
           transition={{ duration: 1.2 }}
           className="text-center"
         >
-          <h1 className="text-7xl font-extrabold text-yellow-400 pt-16 pb-3 drop-shadow-[0_5px_5px_rgba(0,0,0,0.4)]">
+          <h1 className="text-7xl max-sm:text-5xl font-extrabold text-yellow-400 pt-16 pb-3 drop-shadow-[0_5px_5px_rgba(0,0,0,0.4)]">
             About Me
           </h1>
         </motion.div>

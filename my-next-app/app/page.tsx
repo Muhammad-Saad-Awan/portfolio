@@ -14,7 +14,7 @@ export default function Home() {
     <div className="mt-14  bg-[#183049] text-white w-full min-h-screen  md:px-16 max-md:pt-10   max-md:px-5 ">
       <div className={poppins.className}>
         <div className="p-5 pt-24 max-md:pt-8  ">
-          <h1 className="text-5xl font-extrabold text-[#FFD700] pb-3 transition-transform duration-500 transform hover:scale-105 hover:text-[#00B0FF] min-w-fit   max-md:text-2xl max-md:pl-5 pl-7 max max-lg:text-3xl ">
+          <h1 className="text-5xl font-extrabold text-[#FFD700] pb-3 transition-transform duration-500 transform hover:scale-105 hover:text-[#00B0FF] min-w-fit   max-md:text-3xl max-md:text-nowrap max-md:pl-5 pl-7 max max-lg:text-3xl ">
 
            
 
