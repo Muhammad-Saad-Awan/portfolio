@@ -75,7 +75,7 @@ export default function About() {
                 </p>
                 <div className="grid md:grid-cols-3 gap-4">
                   {[
-                    { title: "Web Dev", skills: ["Next.js", "TypeScript", "Tailwind"] },
+                    { title: "Web Dev", skills: ["Next.js", "TypeScript", "TailwindCSS"] },
                     { title: "Backend", skills: ["Java", "MySQL", "C++"] },
                     { title: "Technologies", skills: ["Web", "Metaverse", "AI"] }
                   ].map((category, index) => (
