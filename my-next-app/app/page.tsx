@@ -1,6 +1,6 @@
 "use client"
 import { motion } from   "framer-motion";
-
+import Image from "next/image";
 import { Poppins } from  "@next/font/google";
  
 const poppins = Poppins({
@@ -64,6 +64,15 @@ export default function Home() {
           </div>
   
           <hr className="pb-3" />
+          <div className="absolute top-[42%] right-[5%] m-4 max-xl:hidden">
+        <Image 
+          src="/icons/my5.svg" 
+          alt="Portfolio Decoration" 
+          width={150} 
+          height={150} 
+          className=" rounded-xl shadow-lg w-[392px] opacity-85"
+        />
+      </div>
   
          
         </div>
