@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { Github, Link, ExternalLink } from "lucide-react";
+import Image from "next/image";
+import { Github,ExternalLink } from "lucide-react";
 import { Lora } from "@next/font/google";
 import { motion } from "framer-motion";
 const lora = Lora({
@@ -144,7 +145,7 @@ const ProjectsPage = () => {
                 </div>
 
                 <div className="bg-[#0A192F] border border-[#00B0FF]/20 rounded-lg overflow-hidden  w-72  ">
-                  <img
+                  <Image
                     src={project.image}
                     alt={`${project.title} Screenshot`}
                     className=" object-contain  hover:scale-105 transition-transform duration-300 min-w-full min-h-full"
